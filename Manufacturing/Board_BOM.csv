@@ -1,16 +1,13 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","LCSC"
-"C1,C2,C4,C6,C8,C9","6","CC0603KRX7R9BB104","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472","C14663"
-"C3,C5,C7,C10","4","CC0603MRX7R5BB475","","","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590153403142594560","C1952593"
-"H1,H2","2","MountingHole","","Excluded from BOM","","MountingHole:MountingHole_2.2mm_M2","~",""
-"J1","1","uSD-Card-PAD","","Excluded from BOM","","footprint:uSD-CARD-PAD-wOutline","",""
-"J2,J3","2","TSM-102-01-L-SV","","","","Footprint_lib:CONN-SMD_TSM-102-01-L-SV","https://cn.bing.com/search?q=datasheet%3a++TSM-102-01-L-SV&first=20&FORM=PERE1","C5119249"
-"R1,R2","2","RC0603FR-0722R1L","","","","Resistor_SMD_lib:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf","C137767"
-"R3,R4,R13,R14","4","RC0603FR-074K75L","","","","Resistor_SMD_lib:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf","C137710"
-"R5,R6,R7,R8,R9,R10,R11,R12,R15,R26,R27,R28,R29,R31","14","RC0603JR-0710KL","","","","Resistor_SMD_lib:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf","C99198"
-"R16,R17,R18,R19,R20,R21,R22,R23,R24,R25","10","RC0603JR-070RL","","","","Resistor_SMD_lib:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf","C95177"
-"R30,R32","2","RC0603JR-071KL","","","","Resistor_SMD_lib:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894527021465601","C14676"
-"TP1,TP2","2","TestPoint","","Excluded from BOM","","TestPointsFootprint:TestPoint_Pad_D2.0mm","~",""
-"U1","1","5025700893","","","","Footprint_lib:TF-SMD_5025700893","https://item.szlcsc.com/425166.html","C429846"
-"U2","1","TXS02612RTWR","","","","Footprint_lib:WQFN-24_L4.0-W4.0-P0.50-TL-EP2.5","https://www.ti.com/lit/ds/symlink/txs02612.pdf?ts=1750068935522&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXS02612","C140276"
-"U3","1","MTFC32GAPALNA-AIT","","","","Footprint_lib:TBGA-100_L18.0-W14.0-P1.00-TL_MTFC32GAPALNA-AIT","https://www.mouser.fr/datasheet/2/671/micron_technology_mict-s-a0006806196-1-1759129.pdf","C712511"
-"U4,U5","2","19-213/GHC-YR2U1/3T","","","","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","https://atta.szlcsc.com/upload/public/pdf/source/20190115/C264450_D840E7E570138F41CCE67133F241C738.pdf","C710203"
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C5,C3,C10,C7";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";4;"CC0603MRX7R5BB475";;;
+2;"C8,C2,C1,C9,C4,C6";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";6;"CC0603KRX7R9BB104";;;
+3;"J2,J3";"CONN-SMD_TSM-102-01-L-SV";2;"TSM-102-01-L-SV";;;
+4;"U5,U4";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"19-213/GHC-YR2U1/3T";;;
+5;"R32,R30";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"RC0603JR-071KL";;;
+6;"R26,R10,R9,R7,R5,R6,R15,R31,R29,R27,R12,R8,R28,R11";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";14;"RC0603JR-0710KL";;;
+7;"R3,R4,R14,R13";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";4;"RC0603FR-074K75L";;;
+8;"U1";"TF-SMD_5025700893";1;"5025700893";;;
+9;"R18,R19,R22,R23,R17,R21,R24,R16,R20,R25";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";10;"RC0603JR-070RL";;;
+10;"R2,R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"RC0603FR-0722R1L";;;
+11;"U3";"TBGA-100_L18.0-W14.0-P1.00-TL_MTFC32GAPALNA-AIT";1;"MTFC32GAPALNA-AIT";;;
+12;"U2";"WQFN-24_L4.0-W4.0-P0.50-TL-EP2.5";1;"TXS02612RTWR";;;

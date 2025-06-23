@@ -137,8 +137,8 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.25,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
@@ -228,15 +228,15 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.25
+          "drill": 0.3
         },
         {
           "diameter": 0.55,
-          "drill": 0.25
+          "drill": 0.3
         },
         {
           "diameter": 0.8,
-          "drill": 0.3
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -692,7 +692,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
